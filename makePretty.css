@@ -1,0 +1,529 @@
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top;
+    background-origin: border-box;
+    padding: 5px;
+}
+
+#background_box{
+    min-height:900px;
+    min-width: 900px;
+    height: 900px;
+    width: auto;
+    display: inline-flex;
+}
+#index_background{
+    position: relative;
+    height: 900px;
+    width: 900px;
+    margin: auto;
+}
+
+#input_box{
+    position: relative;
+    height: 470px;
+    width: 225px;
+    margin: auto;
+    transform: translate(140%, -150%);
+}
+
+#index_form{
+    position: relative;
+    width: 175px;
+    height: 350px;
+}
+
+input{
+    width: 150px;
+    text-align: center;
+    border-radius: 13px;
+    border-width: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 7px;
+    z-index: 1;
+}
+
+#icon_box{
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 50px;
+}
+.icon{
+    position: absolute;
+    height:50px;
+    width: 50px;
+    left: -19px;
+    z-index:2;
+    padding: 8px;
+}
+#icon-0{
+    top:20px;
+}
+#icon-1{
+    top:65px;
+}
+#icon-2{
+    top:110px;
+}
+#icon-3{
+    top:155px;
+}
+#icon-4{
+    top:200px;
+}
+#icon-5{
+    top:245px;
+}
+#icon-6{
+    top:290px;
+}
+#icon-7{
+    top:335px;
+}
+
+
+button {
+    background-color: green;
+    border: none;
+    border-radius:10px;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 2px 10px;
+    cursor: pointer;
+  }
+  button#start_game{
+      padding: 24px 10px;
+      font-size: 25px;
+  }
+  button#continue_leg{
+    padding: 24px 10px;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+#game_box{
+    min-height: 900px;
+    min-width: 1300px;
+}
+
+#game_matt{
+    top: 80px;
+    left: 50px;
+    position: absolute;
+    height: 700px;
+    width: 1200px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+#pyrmaid{
+    position: absolute;
+    top: 265px;
+    left: 760px;
+    height: 325px;
+    width: 352px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#pyrmaid_tiles{
+    position: absolute;
+    transform: rotate(-90deg);
+    top:360px;
+    left: 110px;
+    height: 140px;
+    width: 90px;
+    cursor: pointer;
+}
+
+.dice{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+.dice.blue{
+    transform: rotate(15deg);
+    left: 480px;
+    top: 525px;
+}
+.dice.green{
+    transform: rotate(48deg);
+    left: 430px;
+    top: 485px;
+}
+.dice.orange{
+    transform: rotate(90deg);
+    left: 412px;
+    top: 415px;
+}
+.dice.yellow{
+    transform: rotate(135deg);
+    left: 425px;
+    top: 339px;
+}
+.dice.white{
+    transform: rotate(165deg);
+    left: 480px;
+    top: 295px;
+}
+
+.leg_bets{
+    position: absolute;
+    height: 140px;
+    width: 90px;
+    cursor: pointer;
+}
+.leg_bets.blue{
+    transform: rotate(205deg);
+    left:420px;
+    top:600px;
+}
+.leg_bets.green{
+    transform: rotate(229deg);
+    left:320px;
+    top:515px;
+}
+.leg_bets.orange{
+    transform: rotate(-90deg);
+    left:275px;
+    top:360px;
+}
+.leg_bets.yellow{
+    transform: rotate(-49deg);
+    left:320px;
+    top:210px;
+}
+.leg_bets.white{
+    transform: rotate(335deg);
+    left:420px;
+    top:120px;
+}
+
+#cur_player_info{
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    width: 1200px;
+    background-color: rgb(158, 158, 158);
+    border: 5px solid;
+    border-radius: 6px;
+}
+
+.icon_big{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 23px;
+    top:2px;
+    z-index: 5;
+}
+
+#icon_big_0{
+    top: 20px;
+}
+#icon_big_1{
+    top: 120px;
+}
+#icon_big_2{
+    top: 220px;
+}
+#icon_big_3{
+    top: 320px;
+}
+#icon_big_4{
+    top: 420px;
+}
+#icon_big_5{
+    top: 520px;
+}
+#icon_big_6{
+    top: 620px;
+}
+#icon_big_7{
+    top: 720px;
+}
+
+
+#leg_summery_container{
+    position: absolute;
+    top: 3px;
+    left: 25px;
+    width: 505px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgb(114, 114, 114);
+    z-index: 4;
+}
+.sum_name{
+    font-size: 30px;
+    padding: 20px;
+    margin: 5px;
+}
+.sum_money, .sum_cards{
+    font-size: 20px;
+    padding: 20px;
+    margin: 5px;
+}
+
+#player_info{
+    padding: 0%;
+    margin: 1px;
+    margin-left: 75px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    border-width: 5px;
+}
+
+.player_sum{
+    padding: 0%;
+    margin: 1px;
+    margin-left: 75px;
+    padding-top: 45px;
+    padding-bottom: 15px;
+    border-bottom-style: ridge;
+    border-width: 5px;
+}
+
+li {
+    padding-left: 10px;
+    display: inline;
+}
+
+#taken_bets_box{
+position: absolute;
+top: 80px;
+left: 1265px;
+height: 530px;
+width: 300px;
+}
+.taken_bet_pile{
+    width: 300px;;
+}
+.taken_bet{
+    height: 140px;
+    width: 90px;
+}
+.shift_0{
+    transform: translateX(-45%);
+}
+.shift_1{
+    transform: translateX(-90%);
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 90px;
+    height: 140px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.display_player{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.cur_player_0{
+    color: purple;
+    border-color: purple;
+}
+.cur_player_1{
+    color: green;
+    border-color: green;
+}
+.cur_player_2{
+    color: blue;
+    border-color: blue;
+}
+.cur_player_3{
+    color: red;
+    border-color: red;
+}
+.cur_player_4{
+    color: rgb(22, 78, 78);
+    border-color: rgb(22, 78, 78);
+}
+.cur_player_5{
+    color: orange;
+    border-color: orange;
+}
+.cur_player_6{
+    color: hotpink;
+    border-color: hotpink;
+}
+.cur_player_7{
+    color:turquoise;
+    border-color:turquoise;
+}
+
+.flip_cards {
+  background-color: transparent;
+  position: absolute;
+  width: 600px;
+  height: 170px;
+  left: 45px;
+  perspective: 600px;
+  top: 810px;
+  display: inline-flex;
+}
+
+.flip_card_inner{
+  position: relative;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.flip_card_container:hover .flip_card_inner{
+    transform: rotateY(180deg);
+  }
+  
+.flip_card_front, .flip_card_back{
+    position: absolute;
+    width: 100%;
+    height: 100%;   
+    backface-visibility: hidden;
+  }
+
+.flip_card_back{
+    transform: rotateY(180deg);
+  }
+
+.card{
+    position: relative;
+    height:150px;
+    width: 100px;
+}
+.selected{
+    bottom: 20px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+#final_winner_bets_box{
+    position: absolute;
+    left: 90px;
+    top: 640px;
+    height: 150px;
+    width: 100px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+#final_loser_bets_box{
+    position: absolute;
+    left: 90px;
+    top: 72px;
+    height: 150px;
+    width: 100px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+}
+
+.highlight{
+    border: 5px solid yellow;
+    border-radius: 8px;
+}
+
+.bad{
+    background-color: red;
+    opacity: .4;
+}
+.good{
+    background-color:green;
+    opacity: .4;
+}
+.mod_tokens{
+    position: absolute;
+    top: 830px;
+    left: 650px;
+    display: inline-flex;
+}
+.token{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+table{
+    position: absolute;
+    left: 550px;
+    top: 86px;
+}
+td{
+    height: 134px;
+    width: 134px;
+    cursor: pointer;
+}
+
+.boardspace:hover{
+    background-color: wheat;
+    opacity: .3;
+}
+
+.mod_imgs{
+    position: relative;
+    height: 130px;
+    width: 130px;
+}
+
+.camel_display_container{
+    position: relative;
+    height: 134px;
+    width: 134px;
+}
+
+.camel_imgs{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    transform: translateX(40%);
+}
+
+
+.pos_4{
+    top: 50px;
+    z-index: 1;
+}
+.pos_3{
+    top:30px;
+    z-index: 2;
+}
+.pos_2{
+    top: 10px;
+    z-index: 3;
+}
+.pos_1{
+    top: -10px;
+    z-index: 4;
+}
+.pos_0{
+    z-index: 5;
+    top: -30px;
+}
+
+
+.winner{
+    font-size: larger;
+    background-color: rgb(209, 178, 0);
+    
+}
