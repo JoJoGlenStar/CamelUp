@@ -77,14 +77,14 @@ var Player = function(name, id){
                 //add winner card bet
                 endWinBets.push(card);
                 //update win stack display
-                document.getElementById('final_win_bet').src = 'images/cardback-'+this.id+'.JPG';
+                document.getElementById('final_win_bet').src = 'Images/cardback-'+this.id+'.JPG';
                 document.getElementById('final_win_bet').style.display = 'block';
             }
             else{
                 //add loser card bet
                 endLoseBets.push(card);
                 //update lose stack display
-                document.getElementById('final_lose_bet').src = 'images/cardback-'+this.id+'.JPG';
+                document.getElementById('final_lose_bet').src = 'Images/cardback-'+this.id+'.JPG';
                 document.getElementById('final_lose_bet').style.display = 'block';
             }
         transportCard = null;
@@ -181,7 +181,7 @@ var Player = function(name, id){
         //roll the dice
         var temp = rollDice();
         //display dice results
-        document.getElementById(temp.color + '_dice').src='images/'+temp.color+'-'+temp.num +'.jpg';
+        document.getElementById(temp.color + '_dice').src='Images/'+temp.color+'-'+temp.num +'.jpg';
         document.getElementById(temp.color + '_dice').style.display = 'block';
         //update pyrmaid tiles
         changeImgSrc('pyrmaid_tiles', 'pyrmaidTile');
@@ -323,14 +323,14 @@ function changeImgSrc(elId, baseName, sid){
         srcString = srcString[1].split('.');
         id = parseInt(srcString[0]);
         if(id > 0){
-            document.getElementById(elId).src = 'images/'+baseName+'-'+(id-1)+'.JPG';
+            document.getElementById(elId).src = 'Images/'+baseName+'-'+(id-1)+'.JPG';
         }
         else{
             document.getElementById(elId).style.display = 'none';
         }
     }
    else{
-    document.getElementById(elId).src = 'images/' + baseName + '-' + sid + '.JPG';
+    document.getElementById(elId).src = 'Images/' + baseName + '-' + sid + '.JPG';
     document.getElementById(elId).style.display = 'block';
    }
 }
@@ -377,15 +377,15 @@ function initLegBets(){
     legBettingTiles = [blueBets, greenBets, orangeBets, yellowBets, whiteBets];
 
     //display leg bets
-    document.getElementById('blue_leg').src = 'images/blueLeg-2.JPG';
+    document.getElementById('blue_leg').src = 'Images/blueLeg-2.JPG';
     document.getElementById('blue_leg').style.display = 'block';
-    document.getElementById('green_leg').src = 'images/greenLeg-2.JPG';
+    document.getElementById('green_leg').src = 'Images/greenLeg-2.JPG';
     document.getElementById('green_leg').style.display = 'block';
-    document.getElementById('orange_leg').src = 'images/orangeLeg-2.JPG';
+    document.getElementById('orange_leg').src = 'Images/orangeLeg-2.JPG';
     document.getElementById('orange_leg').style.display = 'block';
-    document.getElementById('yellow_leg').src = 'images/yellowLeg-2.JPG';
+    document.getElementById('yellow_leg').src = 'Images/yellowLeg-2.JPG';
     document.getElementById('yellow_leg').style.display = 'block';
-    document.getElementById('white_leg').src = 'images/whiteLeg-2.JPG';
+    document.getElementById('white_leg').src = 'Images/whiteLeg-2.JPG';
     document.getElementById('white_leg').style.display = 'block';
 }
 
@@ -549,7 +549,7 @@ function nextPlayer(){
 
 //update user display
 function updateUserDisplay(){
-    document.getElementById('icon_big_0').src = 'images/icon-'+currentPlayer+'.png';
+    document.getElementById('icon_big_0').src = 'Images/icon-'+currentPlayer+'.png';
     document.getElementById('display_player_name').innerHTML= players[currentPlayer].name;
     document.getElementById('display_player_money').innerHTML = '$'+players[currentPlayer].money;
     document.querySelector('.display_player').classList.add('cur_player_' + currentPlayer);
@@ -597,7 +597,7 @@ function updateCamelDisplay(){
             for(item of raceTrack[i].camelStack){
                     // i = location  j = stackIndex
                     //display new camels
-                    document.getElementById('camel_'+i+'_'+j).src='images/camel_'+item.color+'.PNG';
+                    document.getElementById('camel_'+i+'_'+j).src='Images/camel_'+item.color+'.PNG';
                     document.getElementById('camel_'+i+'_'+j).style.display = 'block';
                     j++;
             }
@@ -675,7 +675,7 @@ function nextLeg(){
 
     //display end of leg summery
     document.getElementById('leg_summery_container').style.display = 'block';
-    document.getElementById('icon_big_0').src = 'images/icon-0.png';
+    document.getElementById('icon_big_0').src = 'Images/icon-0.png';
     for(var i=0; i< numPlayers; i++){
         document.getElementById('icon_big_'+i).style.display = 'block';
         document.getElementById('player_'+i+'_sum').style.display = 'block';
@@ -704,7 +704,7 @@ function continueLeg(){
         document.getElementById('icon_big_'+i).style.display = 'none';
     }
     document.getElementById('icon_big_0').style.display = 'block';
-    document.getElementById('icon_big_0').src = 'images/icon-'+currentPlayer+'.png';
+    document.getElementById('icon_big_0').src = 'Images/icon-'+currentPlayer+'.png';
     document.getElementById('continue_leg').style.display = 'none';
 
 }

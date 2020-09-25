@@ -7,17 +7,17 @@
     </head>
     <body>
         <div id="background_box" style="display: block;">
-            <img id=index_background src="images/index_pic_850x852.jpg" style="display: block;">
+            <img id=index_background src="Images/index_pic_850x852.jpg" style="display: block;">
             <div id=input_box>
             <span id="icon_box">
-                <img id=icon-0 class='icon' src="images/icon-0.png" style="display: none;">
-                <img id=icon-1 class='icon' src="images/icon-1.png" style="display: none;">
-                <img id=icon-2 class='icon' src="images/icon-2.png" style="display: none;">
-                <img id=icon-3 class='icon' src="images/icon-3.png" style="display: none;">
-                <img id=icon-4 class='icon' src="images/icon-4.png" style="display: none;">
-                <img id=icon-5 class='icon' src="images/icon-5.png" style="display: none;">
-                <img id=icon-6 class='icon' src="images/icon-6.png" style="display: none;">
-                <img id=icon-7 class='icon' src="images/icon-7.png" style="display: none;">
+                <img id=icon-0 class='icon' src="Images/icon-0.png" style="display: none;">
+                <img id=icon-1 class='icon' src="Images/icon-1.png" style="display: none;">
+                <img id=icon-2 class='icon' src="Images/icon-2.png" style="display: none;">
+                <img id=icon-3 class='icon' src="Images/icon-3.png" style="display: none;">
+                <img id=icon-4 class='icon' src="Images/icon-4.png" style="display: none;">
+                <img id=icon-5 class='icon' src="Images/icon-5.png" style="display: none;">
+                <img id=icon-6 class='icon' src="Images/icon-6.png" style="display: none;">
+                <img id=icon-7 class='icon' src="Images/icon-7.png" style="display: none;">
             </span>
             <span id=index_form>
                 <input type=number min=2 max=8 placeholder="Number of players" name=numPlayers id=num_players oninput="getPlayers()">
@@ -37,14 +37,14 @@
         </div>
 
         <span id="icon_big_box">
-            <img id=icon_big_0 class='icon_big' src="images/icon-0.png" style="display: none;">
-            <img id=icon_big_1 class='icon_big' src="images/icon-1.png" style="display: none;">
-            <img id=icon_big_2 class='icon_big' src="images/icon-2.png" style="display: none;">
-            <img id=icon_big_3 class='icon_big' src="images/icon-3.png" style="display: none;">
-            <img id=icon_big_4 class='icon_big' src="images/icon-4.png" style="display: none;">
-            <img id=icon_big_5 class='icon_big' src="images/icon-5.png" style="display: none;">
-            <img id=icon_big_6 class='icon_big' src="images/icon-6.png" style="display: none;">
-            <img id=icon_big_7 class='icon_big' src="images/icon-7.png" style="display: none;">
+            <img id=icon_big_0 class='icon_big' src="Images/icon-0.png" style="display: none;">
+            <img id=icon_big_1 class='icon_big' src="Images/icon-1.png" style="display: none;">
+            <img id=icon_big_2 class='icon_big' src="Images/icon-2.png" style="display: none;">
+            <img id=icon_big_3 class='icon_big' src="Images/icon-3.png" style="display: none;">
+            <img id=icon_big_4 class='icon_big' src="Images/icon-4.png" style="display: none;">
+            <img id=icon_big_5 class='icon_big' src="Images/icon-5.png" style="display: none;">
+            <img id=icon_big_6 class='icon_big' src="Images/icon-6.png" style="display: none;">
+            <img id=icon_big_7 class='icon_big' src="Images/icon-7.png" style="display: none;">
         </span>
         <span id=cur_player_info style="display: none;">
             <!-- Used to display players info-->
@@ -98,36 +98,36 @@
         </span>
 
     <div id=game_box style="display: none;">
-        <img id=game_matt src="images/gameBoard01.jpg">
+        <img id=game_matt src="Images/gameBoard01.jpg">
         <!-- Use to display playing board and peices -->
         <div id=dice_display>
-            <img class="dice blue" id="blue_dice" src="images/blue-1.jpg" style="display: none;">
-            <img class="dice green" id="green_dice" src="images/green-1.jpg" style="display: none;">
-            <img class="dice orange" id="orange_dice" src="images/orange-1.jpg" style="display: none;">
-            <img class="dice yellow" id="yellow_dice" src="images/yellow-1.jpg" style="display: none;">
-            <img class="dice white" id="white_dice" src="images/white-1.jpg" style="display: none;">
+            <img class="dice blue" id="blue_dice" src="Images/blue-1.jpg" style="display: none;">
+            <img class="dice green" id="green_dice" src="Images/green-1.jpg" style="display: none;">
+            <img class="dice orange" id="orange_dice" src="Images/orange-1.jpg" style="display: none;">
+            <img class="dice yellow" id="yellow_dice" src="Images/yellow-1.jpg" style="display: none;">
+            <img class="dice white" id="white_dice" src="Images/white-1.jpg" style="display: none;">
         </div>
 
         <div id=betting_tile_display>
-        <img class="leg_bets blue" id="blue_leg" src="images/blueLeg-2.JPG" onclick="players[currentPlayer].takeBet(0)" style="display: none;">
-        <img class="leg_bets green" id="green_leg" src="images/greenLeg-2.JPG" onclick="players[currentPlayer].takeBet(1)" style="display: none;">
-        <img class="leg_bets orange" id="orange_leg" src="images/orangeLeg-2.JPG" onclick="players[currentPlayer].takeBet(2)" style="display: none;">
-        <img class="leg_bets yellow" id="yellow_leg" src="images/yellowLeg-2.JPG" onclick="players[currentPlayer].takeBet(3)" style="display: none;">
-        <img class="leg_bets white" id="white_leg" src="images/whiteLeg-2.JPG" onclick="players[currentPlayer].takeBet(4)" style="display: none;">
+        <img class="leg_bets blue" id="blue_leg" src="Images/blueLeg-2.JPG" onclick="players[currentPlayer].takeBet(0)" style="display: none;">
+        <img class="leg_bets green" id="green_leg" src="Images/greenLeg-2.JPG" onclick="players[currentPlayer].takeBet(1)" style="display: none;">
+        <img class="leg_bets orange" id="orange_leg" src="Images/orangeLeg-2.JPG" onclick="players[currentPlayer].takeBet(2)" style="display: none;">
+        <img class="leg_bets yellow" id="yellow_leg" src="Images/yellowLeg-2.JPG" onclick="players[currentPlayer].takeBet(3)" style="display: none;">
+        <img class="leg_bets white" id="white_leg" src="Images/whiteLeg-2.JPG" onclick="players[currentPlayer].takeBet(4)" style="display: none;">
         </div>
 
         <div id=pyrmaid_display>
-            <img id=pyrmaid src="images/pyrmaid85-crop.PNG" onclick="players[currentPlayer].usePyrmaid()">
+            <img id=pyrmaid src="Images/pyrmaid85-crop.PNG" onclick="players[currentPlayer].usePyrmaid()">
         </div>
         
         <div id=pyrmaid_tiles_display>
-            <img id=pyrmaid_tiles src="images/pyrmaidTile-4.JPG" onclick="players[currentPlayer].usePyrmaid()">
+            <img id=pyrmaid_tiles src="Images/pyrmaidTile-4.JPG" onclick="players[currentPlayer].usePyrmaid()">
         </div>
         <div id=final_loser_bets_box onclick="players[currentPlayer].playCard(players[currentPlayer].transportObj, 'lose');">
-            <img id=final_lose_bet class=card src="images/cardback-0.JPG" style="display: none;">
+            <img id=final_lose_bet class=card src="Images/cardback-0.JPG" style="display: none;">
         </div>
         <div id=final_winner_bets_box onclick="players[currentPlayer].playCard(players[currentPlayer].transportObj, 'win');">
-            <img id=final_win_bet class=card src="images/cardback-0.JPG" style="display: none;">
+            <img id=final_win_bet class=card src="Images/cardback-0.JPG" style="display: none;">
         </div>
 
         <div class=flip_cards>
@@ -135,10 +135,10 @@
             <div class="flip_card_container">
                 <div class=flip_card_inner onclick="players[currentPlayer].selectCard(0);">
                     <div class=flip_card_front>
-                        <img id=cardback-0 class="card hand" src='images/cardback-0.JPG' style="display: none;">
+                        <img id=cardback-0 class="card hand" src='Images/cardback-0.JPG' style="display: none;">
                     </div>
                     <div class=flip_card_back>
-                        <img id=cardface-0 class="card hand" src='images/final-0-0.JPG' style="display: none;">
+                        <img id=cardface-0 class="card hand" src='Images/final-0-0.JPG' style="display: none;">
                     </div> 
                 </div>
             </div>
@@ -146,10 +146,10 @@
             <div class="flip_card_container">
                 <div class=flip_card_inner onclick="players[currentPlayer].selectCard(1);">
                     <div class=flip_card_front>
-                         <img id=cardback-1 class="card hand" src='images/cardback-0.JPG' style="display: none;">
+                         <img id=cardback-1 class="card hand" src='Images/cardback-0.JPG' style="display: none;">
                     </div>
                     <div class=flip_card_back>
-                        <img id=cardface-1 class="card hand" src='images/final-1-0.JPG' style="display: none;">
+                        <img id=cardface-1 class="card hand" src='Images/final-1-0.JPG' style="display: none;">
                     </div> 
                 </div>
             </div>
@@ -157,10 +157,10 @@
             <div class="flip_card_container">
                 <div class=flip_card_inner onclick="players[currentPlayer].selectCard(2);">
                     <div class=flip_card_front>
-                        <img id=cardback-2 class="card hand" src='images/cardback-0.JPG' style="display: none;">
+                        <img id=cardback-2 class="card hand" src='Images/cardback-0.JPG' style="display: none;">
                     </div>
                     <div class=flip_card_back>
-                        <img id=cardface-2 class="card hand" src='images/final-2-0.JPG' style="display: none;">
+                        <img id=cardface-2 class="card hand" src='Images/final-2-0.JPG' style="display: none;">
                     </div> 
                 </div>
             </div>
@@ -168,10 +168,10 @@
             <div class="flip_card_container">
                 <div class=flip_card_inner onclick="players[currentPlayer].selectCard(3);">
                     <div class=flip_card_front>
-                        <img id=cardback-3 class="card hand" src='images/cardback-0.JPG' style="display: none;">
+                        <img id=cardback-3 class="card hand" src='Images/cardback-0.JPG' style="display: none;">
                     </div>
                     <div class=flip_card_back>
-                        <img id=cardface-3 class="card hand" src='images/final-3-0.JPG' style="display: none;">
+                        <img id=cardface-3 class="card hand" src='Images/final-3-0.JPG' style="display: none;">
                     </div> 
                 </div>
             </div>
@@ -179,10 +179,10 @@
             <div class="flip_card_container">
                 <div class=flip_card_inner onclick="players[currentPlayer].selectCard(4);">
                     <div class=flip_card_front>
-                        <img id=cardback-4 class="card hand" src='images/cardback-0.JPG' style="display: none;">
+                        <img id=cardback-4 class="card hand" src='Images/cardback-0.JPG' style="display: none;">
                     </div>
                     <div class=flip_card_back>
-                        <img id=cardface-4 class="card hand" src='images/final-4-0.JPG' style="display: none;">
+                        <img id=cardface-4 class="card hand" src='Images/final-4-0.JPG' style="display: none;">
                     </div> 
                 </div>
             </div>
@@ -190,8 +190,8 @@
         </div>
         
         <div class="mod_tokens">
-            <img id=mirage class=token src='images/mirage-0.JPG' style="display: none;" onclick="players[currentPlayer].selectModToken(-1)">
-            <img id=oasis class=token src='images/oasis-0.JPG' style="display: none;" onclick="players[currentPlayer].selectModToken(1)"> 
+            <img id=mirage class=token src='Images/mirage-0.JPG' style="display: none;" onclick="players[currentPlayer].selectModToken(-1)">
+            <img id=oasis class=token src='Images/oasis-0.JPG' style="display: none;" onclick="players[currentPlayer].selectModToken(1)"> 
         </div>
 
         <div class="racetrack_display">
@@ -199,64 +199,64 @@
                 <tr>
                     <td id="2" class="boardspace" onclick="players[currentPlayer].useModToken(2);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_2_0 class="camel_imgs space_2 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_2_1 class="camel_imgs space_2 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_2_2 class="camel_imgs space_2 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_2_3 class="camel_imgs space_2 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_2_4 class="camel_imgs space_2 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_2 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_2_0 class="camel_imgs space_2 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_2_1 class="camel_imgs space_2 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_2_2 class="camel_imgs space_2 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_2_3 class="camel_imgs space_2 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_2_4 class="camel_imgs space_2 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_2 class="mod_imgs" style="display: none;">
                     </div>                 
                     </td>
                     <td id="3" class="boardspace" onclick="players[currentPlayer].useModToken(3);">
                     <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_3_0 class="camel_imgs space_3 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_3_1 class="camel_imgs space_3 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_3_2 class="camel_imgs space_3 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_3_3 class="camel_imgs space_3 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_3_4 class="camel_imgs space_3 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_3 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_3_0 class="camel_imgs space_3 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_3_1 class="camel_imgs space_3 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_3_2 class="camel_imgs space_3 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_3_3 class="camel_imgs space_3 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_3_4 class="camel_imgs space_3 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_3 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="4" class="boardspace" onclick="players[currentPlayer].useModToken(4);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_4_0 class="camel_imgs space_4 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_4_1 class="camel_imgs space_4 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_4_2 class="camel_imgs space_4 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_4_3 class="camel_imgs space_4 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_4_4 class="camel_imgs space_4 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_4 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_4_0 class="camel_imgs space_4 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_4_1 class="camel_imgs space_4 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_4_2 class="camel_imgs space_4 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_4_3 class="camel_imgs space_4 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_4_4 class="camel_imgs space_4 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_4 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="5" class="boardspace" onclick="players[currentPlayer].useModToken(5);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_5_0 class="camel_imgs space_5 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_5_1 class="camel_imgs space_5 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_5_2 class="camel_imgs space_5 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_5_3 class="camel_imgs space_5 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_5_4 class="camel_imgs space_5 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_5 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_5_0 class="camel_imgs space_5 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_5_1 class="camel_imgs space_5 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_5_2 class="camel_imgs space_5 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_5_3 class="camel_imgs space_5 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_5_4 class="camel_imgs space_5 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_5 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="6" class="boardspace" onclick="players[currentPlayer].useModToken(6);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_6_0 class="camel_imgs space_6 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_6_1 class="camel_imgs space_6 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_6_2 class="camel_imgs space_6 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_6_3 class="camel_imgs space_6 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_6_4 class="camel_imgs space_6 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_6 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_6_0 class="camel_imgs space_6 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_6_1 class="camel_imgs space_6 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_6_2 class="camel_imgs space_6 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_6_3 class="camel_imgs space_6 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_6_4 class="camel_imgs space_6 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_6 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                 </tr>
                 <tr>
                     <td id="1" class="boardspace" onclick="players[currentPlayer].useModToken(1);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_1_0 class="camel_imgs space_1 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_1_1 class="camel_imgs space_1 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_1_2 class="camel_imgs space_1 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_1_3 class="camel_imgs space_1 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_1_4 class="camel_imgs space_1 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_1 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_1_0 class="camel_imgs space_1 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_1_1 class="camel_imgs space_1 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_1_2 class="camel_imgs space_1 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_1_3 class="camel_imgs space_1 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_1_4 class="camel_imgs space_1 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_1 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td></td>
@@ -264,12 +264,12 @@
                     <td></td>
                     <td id="7" class="boardspace" onclick="players[currentPlayer].useModToken(7);" >
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_7_0 class="camel_imgs space_7 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_7_1 class="camel_imgs space_7 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_7_2 class="camel_imgs space_7 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_7_3 class="camel_imgs space_7 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_7_4 class="camel_imgs space_7 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_7 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_7_0 class="camel_imgs space_7 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_7_1 class="camel_imgs space_7 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_7_2 class="camel_imgs space_7 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_7_3 class="camel_imgs space_7 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_7_4 class="camel_imgs space_7 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_7 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                         
@@ -277,17 +277,17 @@
                 <tr>
                     <td id="0" class="boardspace">
                     <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_0_0 class="camel_imgs space_0 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_0_1 class="camel_imgs space_0 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_0_2 class="camel_imgs space_0 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_0_3 class="camel_imgs space_0 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_0_4 class="camel_imgs space_0 pos_0" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_0_0 class="camel_imgs space_0 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_0_1 class="camel_imgs space_0 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_0_2 class="camel_imgs space_0 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_0_3 class="camel_imgs space_0 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_0_4 class="camel_imgs space_0 pos_0" style="display: none;">
               
-                        <img src="images/camel_orange.PNG" id=camel_16_0 class="camel_imgs space_0 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_16_1 class="camel_imgs space_0 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_16_2 class="camel_imgs space_0 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_16_3 class="camel_imgs space_0 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_16_4 class="camel_imgs space_0 pos_0" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_16_0 class="camel_imgs space_0 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_16_1 class="camel_imgs space_0 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_16_2 class="camel_imgs space_0 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_16_3 class="camel_imgs space_0 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_16_4 class="camel_imgs space_0 pos_0" style="display: none;">
                     </div>
                 </td>
                     <td></td>
@@ -295,12 +295,12 @@
                     <td></td>
                     <td id="8" class="boardspace" onclick="players[currentPlayer].useModToken(8);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_8_0 class="camel_imgs space_8 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_8_1 class="camel_imgs space_8 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_8_2 class="camel_imgs space_8 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_8_3 class="camel_imgs space_8 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_8_4 class="camel_imgs space_8 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_8 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_8_0 class="camel_imgs space_8 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_8_1 class="camel_imgs space_8 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_8_2 class="camel_imgs space_8 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_8_3 class="camel_imgs space_8 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_8_4 class="camel_imgs space_8 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_8 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                         
@@ -308,12 +308,12 @@
                 <tr>
                     <td id="15" class="boardspace" onclick="players[currentPlayer].useModToken(15);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_15_0 class="camel_imgs space_15 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_15_1 class="camel_imgs space_15 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_15_2 class="camel_imgs space_15 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_15_3 class="camel_imgs space_15 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_15_4 class="camel_imgs space_15 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_15 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_15_0 class="camel_imgs space_15 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_15_1 class="camel_imgs space_15 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_15_2 class="camel_imgs space_15 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_15_3 class="camel_imgs space_15 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_15_4 class="camel_imgs space_15 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_15 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td></td>
@@ -321,64 +321,64 @@
                     <td></td>
                     <td id="9" class="boardspace" onclick="players[currentPlayer].useModToken(9);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_9_0 class="camel_imgs space_9 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_9_1 class="camel_imgs space_9 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_9_2 class="camel_imgs space_9 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_9_3 class="camel_imgs space_9 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_9_4 class="camel_imgs space_9 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_9 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_9_0 class="camel_imgs space_9 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_9_1 class="camel_imgs space_9 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_9_2 class="camel_imgs space_9 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_9_3 class="camel_imgs space_9 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_9_4 class="camel_imgs space_9 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_9 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                 </tr>
                 <tr>
                     <td id="14" class="boardspace" onclick="players[currentPlayer].useModToken(14);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_14_0 class="camel_imgs space_14 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_14_1 class="camel_imgs space_14 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_14_2 class="camel_imgs space_14 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_14_3 class="camel_imgs space_14 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_14_4 class="camel_imgs space_14 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_14 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_14_0 class="camel_imgs space_14 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_14_1 class="camel_imgs space_14 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_14_2 class="camel_imgs space_14 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_14_3 class="camel_imgs space_14 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_14_4 class="camel_imgs space_14 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_14 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="13" class="boardspace" onclick="players[currentPlayer].useModToken(13);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_13_0 class="camel_imgs space_13 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_13_1 class="camel_imgs space_13 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_13_2 class="camel_imgs space_13 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_13_3 class="camel_imgs space_13 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_13_4 class="camel_imgs space_13 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_13 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_13_0 class="camel_imgs space_13 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_13_1 class="camel_imgs space_13 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_13_2 class="camel_imgs space_13 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_13_3 class="camel_imgs space_13 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_13_4 class="camel_imgs space_13 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_13 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="12" class="boardspace" onclick="players[currentPlayer].useModToken(12);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_12_0 class="camel_imgs space_12 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_12_1 class="camel_imgs space_12 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_12_2 class="camel_imgs space_12 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_12_3 class="camel_imgs space_12 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_12_4 class="camel_imgs space_12 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_12 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_12_0 class="camel_imgs space_12 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_12_1 class="camel_imgs space_12 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_12_2 class="camel_imgs space_12 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_12_3 class="camel_imgs space_12 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_12_4 class="camel_imgs space_12 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_12 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="11" class="boardspace" onclick="players[currentPlayer].useModToken(11);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_11_0 class="camel_imgs space_11 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_11_1 class="camel_imgs space_11 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_11_2 class="camel_imgs space_11 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_11_3 class="camel_imgs space_11 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_11_4 class="camel_imgs space_11 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_11 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_11_0 class="camel_imgs space_11 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_11_1 class="camel_imgs space_11 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_11_2 class="camel_imgs space_11 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_11_3 class="camel_imgs space_11 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_11_4 class="camel_imgs space_11 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_11 class="mod_imgs" style="display: none;">
                     </div>
                     </td>
                     <td id="10" class="boardspace" onclick="players[currentPlayer].useModToken(10);">
                         <div class="camel_display_container">
-                        <img src="images/camel_orange.PNG" id=camel_10_0 class="camel_imgs space_10 pos_4" style="display: none;">
-                        <img src="images/camel_yellow.PNG" id=camel_10_1 class="camel_imgs space_10 pos_3" style="display: none;">
-                        <img src="images/camel_white.PNG" id=camel_10_2 class="camel_imgs space_10 pos_2" style="display: none;">
-                        <img src="images/camel_green.PNG" id=camel_10_3 class="camel_imgs space_10 pos_1" style="display: none;">
-                        <img src="images/camel_blue.PNG" id=camel_10_4 class="camel_imgs space_10 pos_0" style="display: none;">
-                        <img src="images/mirage-0.JPG" id=mod_10 class="mod_imgs" style="display: none;">
+                        <img src="Images/camel_orange.PNG" id=camel_10_0 class="camel_imgs space_10 pos_4" style="display: none;">
+                        <img src="Images/camel_yellow.PNG" id=camel_10_1 class="camel_imgs space_10 pos_3" style="display: none;">
+                        <img src="Images/camel_white.PNG" id=camel_10_2 class="camel_imgs space_10 pos_2" style="display: none;">
+                        <img src="Images/camel_green.PNG" id=camel_10_3 class="camel_imgs space_10 pos_1" style="display: none;">
+                        <img src="Images/camel_blue.PNG" id=camel_10_4 class="camel_imgs space_10 pos_0" style="display: none;">
+                        <img src="Images/mirage-0.JPG" id=mod_10 class="mod_imgs" style="display: none;">
                         </div>
                         
                     </td>
@@ -389,57 +389,57 @@
         <div id="taken_bets_box">
             <div class="taken_bet_pile row">
                 <div class="column">
-                    <img id=white_5 class="taken_bet" src="images/whiteLeg-2.JPG" style="display: none;">
+                    <img id=white_5 class="taken_bet" src="Images/whiteLeg-2.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=white_3 class="taken_bet shift_0" src="images/whiteLeg-1.JPG" style="display: none;">
+                    <img id=white_3 class="taken_bet shift_0" src="Images/whiteLeg-1.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=white_2 class="taken_bet shift_1" src="images/whiteLeg-0.JPG" style="display: none;">
+                    <img id=white_2 class="taken_bet shift_1" src="Images/whiteLeg-0.JPG" style="display: none;">
                 </div>    
             </div>
             <div class="taken_bet_pile row">
                 <div class="column">
-                    <img id=yellow_5 class="taken_bet" src="images/yellowLeg-2.JPG" style="display: none;">
+                    <img id=yellow_5 class="taken_bet" src="Images/yellowLeg-2.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=yellow_3 class="taken_bet shift_0" src="images/yellowLeg-1.JPG" style="display: none;">  
+                    <img id=yellow_3 class="taken_bet shift_0" src="Images/yellowLeg-1.JPG" style="display: none;">  
                 </div>                    
                 <div class="column">
-                    <img id=yellow_2 class="taken_bet shift_1" src="images/yellowLeg-0.JPG" style="display: none;">
+                    <img id=yellow_2 class="taken_bet shift_1" src="Images/yellowLeg-0.JPG" style="display: none;">
                 </div>
             </div>
             <div class="taken_bet_pile row">
                 <div class="column">
-                    <img id=orange_5 class="taken_bet" src="images/orangeLeg-2.JPG" style="display: none;">
+                    <img id=orange_5 class="taken_bet" src="Images/orangeLeg-2.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=orange_3 class="taken_bet shift_0" src="images/orangeLeg-1.JPG" style="display: none;">
+                    <img id=orange_3 class="taken_bet shift_0" src="Images/orangeLeg-1.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=orange_2 class="taken_bet shift_1" src="images/orangeLeg-0.JPG" style="display: none;">
+                    <img id=orange_2 class="taken_bet shift_1" src="Images/orangeLeg-0.JPG" style="display: none;">
                 </div>
             </div>
             <div class="taken_bet_pile row">
                 <div class="column">
-                    <img id=green_5 class="taken_bet" src="images/greenLeg-2.JPG" style="display: none;">
+                    <img id=green_5 class="taken_bet" src="Images/greenLeg-2.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=green_3 class="taken_bet shift_0" src="images/greenLeg-1.JPG" style="display: none;">
+                    <img id=green_3 class="taken_bet shift_0" src="Images/greenLeg-1.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=green_2 class="taken_bet shift_1" src="images/greenLeg-0.JPG" style="display: none;">
+                    <img id=green_2 class="taken_bet shift_1" src="Images/greenLeg-0.JPG" style="display: none;">
                 </div>   
             </div>
             <div class="taken_bet_pile row">
                 <div class="column">
-                    <img id=blue_5 class="taken_bet" src="images/blueLeg-2.JPG" style="display: none;">
+                    <img id=blue_5 class="taken_bet" src="Images/blueLeg-2.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=blue_3 class="taken_bet shift_0" src="images/blueLeg-1.JPG" style="display: none;">
+                    <img id=blue_3 class="taken_bet shift_0" src="Images/blueLeg-1.JPG" style="display: none;">
                 </div>
                 <div class="column">
-                    <img id=blue_2 class="taken_bet shift_1" src="images/blueLeg-0.JPG" style="display: none;">
+                    <img id=blue_2 class="taken_bet shift_1" src="Images/blueLeg-0.JPG" style="display: none;">
                 </div>
             </div>
         </div>
