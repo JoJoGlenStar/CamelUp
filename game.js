@@ -181,7 +181,7 @@ var Player = function(name, id){
         //roll the dice
         var temp = rollDice();
         //display dice results
-        document.getElementById(temp.color + '_dice').src='Images/'+temp.color+'-'+temp.num +'.jpg';
+        document.getElementById(temp.color + '_dice').src='Images/'+temp.color+'-'+temp.num +'.JPG';
         document.getElementById(temp.color + '_dice').style.display = 'block';
         //update pyrmaid tiles
         changeImgSrc('pyrmaid_tiles', 'pyrmaidTile');
@@ -549,7 +549,7 @@ function nextPlayer(){
 
 //update user display
 function updateUserDisplay(){
-    document.getElementById('icon_big_0').src = 'Images/icon-'+currentPlayer+'.png';
+    document.getElementById('icon_big_0').src = 'Images/icon-'+currentPlayer+'.PNG';
     document.getElementById('display_player_name').innerHTML= players[currentPlayer].name;
     document.getElementById('display_player_money').innerHTML = '$'+players[currentPlayer].money;
     document.querySelector('.display_player').classList.add('cur_player_' + currentPlayer);
@@ -675,7 +675,7 @@ function nextLeg(){
 
     //display end of leg summery
     document.getElementById('leg_summery_container').style.display = 'block';
-    document.getElementById('icon_big_0').src = 'Images/icon-0.png';
+    document.getElementById('icon_big_0').src = 'Images/icon-0.PNG';
     for(var i=0; i< numPlayers; i++){
         document.getElementById('icon_big_'+i).style.display = 'block';
         document.getElementById('player_'+i+'_sum').style.display = 'block';
@@ -704,7 +704,7 @@ function continueLeg(){
         document.getElementById('icon_big_'+i).style.display = 'none';
     }
     document.getElementById('icon_big_0').style.display = 'block';
-    document.getElementById('icon_big_0').src = 'Images/icon-'+currentPlayer+'.png';
+    document.getElementById('icon_big_0').src = 'Images/icon-'+currentPlayer+'.PNG';
     document.getElementById('continue_leg').style.display = 'none';
 
 }
